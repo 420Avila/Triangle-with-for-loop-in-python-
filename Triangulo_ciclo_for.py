@@ -1,3 +1,6 @@
+from turtle import clear
+
+
 print()
 print(" _  _ ___   ___              _ _       ")
 print("| || |__ \ / _ \            (_) |      ")
@@ -7,6 +10,12 @@ print("   | |/ /_| |_| | (_| |\ V /| | | (_| |")
 print("   |_|____|\___/ \__,_| \_/ |_|_|\__,_|")
 print()
 print() 
+
+print("    *             *          *    ") 
+print("    **           **         * *   ")          
+print("    ***         ***        * * *  ") 
+print(" A) ****    B) ****    C) * * * * ")  
+
 
 n=int (input("Introduce el numero de renglones del triangulo: "))
 for i in range(n+1):
